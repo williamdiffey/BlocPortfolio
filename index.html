@@ -1,0 +1,104 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+<title>William Diffey's Portfolio Site</title>  
+<link rel="stylesheet" type="text/css" href="style.css">
+<link href="https://fonts.googleapis.com/css?family=Raleway&display=swap" rel="stylesheet">
+<link href="https://fonts.googleapis.com/css?family=Roboto+Slab&display=swap" rel="stylesheet">
+</head>
+
+
+<body> 
+<div class="grid">
+  
+ <nav class='topnav'>
+    <img alt="William Diffey Logo" src="images/WDicon.png" width="100" height="100" class="logo">
+
+    <div id='topnavLinks'>
+        <a href="#projects">Projects</a>
+        <a href="https://github.com/williamdiffey">Github</a>
+        <a href="#contact">Contact</a>
+      </div>
+  
+
+
+    <div class="burger" onclick="toggleBurger(this)">
+      <div class="bar1"></div>
+      <div class="bar2"></div>
+      <div class="bar3"></div>
+    </div>
+
+    <div id='links'>
+      <a href="#projects">Projects</a>
+      <a href="https://github.com/williamdiffey">Github</a>
+      <a href="#contact">Contact</a>
+    </div>
+
+    
+  </nav> 
+  
+
+
+  <header class='hero'>
+    <h1 class='william'>WILLIAM</h1> <h1 class='diffey'>DIFFEY</h1>
+  </header>
+
+  <section class='bio'>
+    <h2 class='roboto'>Bio:</h2>  
+    <p>I am a Web Developer and recent graduate of the Web Developer course at Bloc living between London and Korea.
+    My passions include education, music, future noir and 3d renders. I have lived and worked in five countries in the past ten years.
+    I work with HTML, CSS, Javascript, JQuery, React and Node.js. I love learning about new libraries and frameworks and I have a particular soft spot for machine learning.</p>
+  </section>
+
+  <section class='skills'>
+    <h2>Skills & Services</h2>
+    <ul>
+      <li>html/css</li>
+      <li>javascript</li>
+      <li>react</li>
+      <li>node.js</li>
+      <li>css grid</li>
+      <li>jquery</li>
+    </ul>
+  </section>
+
+  <section id="project1">
+    <h2>Projects</h2>
+    <h3 class='roboto'> Drum & Bass Quiz App</h3> 
+    <p class='alignLeft'>Project description: Tracking down samples used in music is something that has spawned numerous websites, 
+       facebook groups and forums. Many a night’s sleep has been lost trying to track down an elusive breakbeat or vocal sample.
+       This app allows lovers of drum & bass to test their knowledge and hopefully inspire a few to use some of these samples to          make more great music.<br/>
+    <br/>
+    <p class='roboto'>Technologies used: HTML, CSS, Javascript & JQuery.</p><br/>
+    <a href="https://github.com/williamdiffey/samplesQuiz">Github</a> <br/>
+    <a href="https://williamdiffey.github.io/samplesQuiz/">Live Page</a> <br/>
+    <br/>
+    <img src="images/quizapp1.png" class='mobileScreenshot' alt="Screenshot of Quiz App Question Screen">
+    <img src="images/quizapp2.png" class='mobileScreenshot' alt="Screenshot of Quiz App Feedback Screen">
+    
+  </section>
+
+<!--   <section class='project2'>
+    Project 2
+  </section>
+
+  <section class="project 3">
+    Project 3
+  </section> -->
+
+  <section ID='contact'>
+    <h2>Contact</h2><br/>
+    <p>I would love to hear from you</p><br/>
+    <div class='externalLinks'>
+      <a href='mailto:william.diffey@protonmail.com' class=''><img src="images/email.png" alt="email icon"></a>
+      <a href='https://github.com/williamdiffey' class=''><img src="images/Github.png" alt="email icon"></a>
+      <a href='https://www.linkedin.com/in/william-diffey-677531184/' class=''><img src="images/linkedin.png" alt="linkedin logo"></a>
+      <a href='https://twitter.com/skunkworxlabz?lang=en-gb' class=''><img src="images/twitter.png" alt="twitter logo"></a>
+    </div>
+  </section>
+
+</div>
+
+<script src="script.js"></script>
+</body>
